@@ -1,0 +1,195 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* ======== Global Styles ======== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F5F5DC; /* Beige background */
+    color: #4E3629; /* Dark brown text */
+}
+
+/* ======== Header & Navigation ======== */
+header {
+    background: #4E3629; /* Dark brown */
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #D2B48C; /* Light brown (Tan) */
+}
+
+/* ======== Sections Styling ======== */
+section {
+    background: white;
+    padding: 40px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4E3629; /* Dark brown border */
+    text-align: center;
+}
+
+/* ======== Profile Photo ======== */
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #4E3629; /* Dark brown border */
+    box-shadow: 0px 4px 10px rgba(78, 54, 41, 0.5);
+}
+
+/* ======== Info Boxes ======== */
+/* Center-align text in Personal Info, Career Objective, and Education */
+.info-box {
+    background: #FAF3E0; /* Light beige */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4E3629;
+    text-align: center; /* Centers text */
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-box h2 {
+    text-align: center; /* Ensures headings are centered */
+    font-size: 24px;
+    color: #4E3629; /* Dark brown */
+    font-weight: bold;
+}
+
+.info-box p {
+    text-align: center; /* Centers paragraph text */
+    font-size: 18px;
+    color: #4E3629;
+}
+
+
+.info-box:hover {
+    transform: scale(1.02);
+}
+
+/* ======== Projects Styling ======== */
+.project {
+    background: #FAF3E0; /* Light beige */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4E3629;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* ======== Contact Form Styling ======== */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    background: #FAF3E0; /* Light beige */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #4E3629;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #4E3629;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    background: white;
+    color: #4E3629;
+}
+
+button {
+    background: #4E3629; /* Dark brown */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #8B5A2B; /* Lighter brown */
+}
+
+/* ======== Contact Me Section ======== */
+#contact-me {
+    border: 2px solid #4E3629;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ======== Footer ======== */
+footer {
+    background: #4E3629; /* Dark brown */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ======== Hyperlink Styling (All Links Black) ======== */
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #8B5A2B; /* Lighter brown */
+}
+
+/* ======== Social Media Links (Black) ======== */
+.social-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #8B5A2B;
+}
